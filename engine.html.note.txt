@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Titan Engine</title>
+</head>	<link rel="stylesheet" type="text/css" href="css/engine_style.css">
+
+<body>
+	<div id="sidebar">
+		<h2>Shapes</h2>
+		<div id="shapes">
+			<nav>
+				<div class="shape" id="triangle"></div>
+				<div class="shape" id="rect"></div>
+			</nav>
+		</div>
+	</div>
+	<div id="canvas"></div>
+	<div id="properties">
+		<h2>Properties</h2>
+		<div>
+			<label for="posX">X: </label>
+			<input type="number" id="posX">
+		</div>
+		<div>
+			<label for="posY">Y: </label>
+			<input type="number" id="posY">
+		</div>
+	</div>
+
+	<script src="js/engine.js"></script>
+</body>
+</html>
